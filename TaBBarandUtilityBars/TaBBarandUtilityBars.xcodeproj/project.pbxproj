@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2464A12158190C0002260A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A11158190C0002260A1 /* UIKit.framework */; };
+		B2464A14158190C0002260A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A13158190C0002260A1 /* Foundation.framework */; };
+		B2464A16158190C0002260A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A15158190C0002260A1 /* CoreGraphics.framework */; };
+		B2464A1C158190C0002260A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2464A1A158190C0002260A1 /* InfoPlist.strings */; };
+		B2464A1E158190C0002260A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2464A1D158190C0002260A1 /* main.m */; };
+		B2464A22158190C0002260A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2464A21158190C0002260A1 /* AppDelegate.m */; };
+		B2464A25158190C0002260A1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2464A23158190C0002260A1 /* MainStoryboard_iPhone.storyboard */; };
+		B2464A28158190C0002260A1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2464A26158190C0002260A1 /* MainStoryboard_iPad.storyboard */; };
+		B2464A2B158190C0002260A1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2464A2A158190C0002260A1 /* FirstViewController.m */; };
+		B2464A2D158190C0002260A1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B2464A2C158190C0002260A1 /* first.png */; };
+		B2464A2F158190C0002260A1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2464A2E158190C0002260A1 /* first@2x.png */; };
+		B2464A32158190C0002260A1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2464A31158190C0002260A1 /* SecondViewController.m */; };
+		B2464A34158190C0002260A1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B2464A33158190C0002260A1 /* second.png */; };
+		B2464A36158190C0002260A1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2464A35158190C0002260A1 /* second@2x.png */; };
+		B2464A3E158190C0002260A1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A3D158190C0002260A1 /* SenTestingKit.framework */; };
+		B2464A3F158190C1002260A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A11158190C0002260A1 /* UIKit.framework */; };
+		B2464A40158190C1002260A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2464A13158190C0002260A1 /* Foundation.framework */; };
+		B2464A48158190C1002260A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2464A46158190C1002260A1 /* InfoPlist.strings */; };
+		B2464A4B158190C1002260A1 /* TaBBarandUtilityBarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2464A4A158190C1002260A1 /* TaBBarandUtilityBarsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2464A41158190C1002260A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2464A04158190C0002260A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2464A0C158190C0002260A1;
+			remoteInfo = TaBBarandUtilityBars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2464A0D158190C0002260A1 /* TaBBarandUtilityBars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaBBarandUtilityBars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2464A11158190C0002260A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2464A13158190C0002260A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2464A15158190C0002260A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2464A19158190C0002260A1 /* TaBBarandUtilityBars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaBBarandUtilityBars-Info.plist"; sourceTree = "<group>"; };
+		B2464A1B158190C0002260A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2464A1D158190C0002260A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2464A1F158190C0002260A1 /* TaBBarandUtilityBars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaBBarandUtilityBars-Prefix.pch"; sourceTree = "<group>"; };
+		B2464A20158190C0002260A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2464A21158190C0002260A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2464A24158190C0002260A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2464A27158190C0002260A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2464A29158190C0002260A1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2464A2A158190C0002260A1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B2464A2C158190C0002260A1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B2464A2E158190C0002260A1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B2464A30158190C0002260A1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2464A31158190C0002260A1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2464A33158190C0002260A1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B2464A35158190C0002260A1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B2464A3C158190C0002260A1 /* TaBBarandUtilityBarsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaBBarandUtilityBarsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2464A3D158190C0002260A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2464A45158190C1002260A1 /* TaBBarandUtilityBarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaBBarandUtilityBarsTests-Info.plist"; sourceTree = "<group>"; };
+		B2464A47158190C1002260A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2464A49158190C1002260A1 /* TaBBarandUtilityBarsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaBBarandUtilityBarsTests.h; sourceTree = "<group>"; };
+		B2464A4A158190C1002260A1 /* TaBBarandUtilityBarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaBBarandUtilityBarsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2464A0A158190C0002260A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A12158190C0002260A1 /* UIKit.framework in Frameworks */,
+				B2464A14158190C0002260A1 /* Foundation.framework in Frameworks */,
+				B2464A16158190C0002260A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2464A38158190C0002260A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A3E158190C0002260A1 /* SenTestingKit.framework in Frameworks */,
+				B2464A3F158190C1002260A1 /* UIKit.framework in Frameworks */,
+				B2464A40158190C1002260A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2464A02158190C0002260A1 = {
+			isa = PBXGroup;
+			children = (
+				B2464A17158190C0002260A1 /* TaBBarandUtilityBars */,
+				B2464A43158190C1002260A1 /* TaBBarandUtilityBarsTests */,
+				B2464A10158190C0002260A1 /* Frameworks */,
+				B2464A0E158190C0002260A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2464A0E158190C0002260A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A0D158190C0002260A1 /* TaBBarandUtilityBars.app */,
+				B2464A3C158190C0002260A1 /* TaBBarandUtilityBarsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2464A10158190C0002260A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A11158190C0002260A1 /* UIKit.framework */,
+				B2464A13158190C0002260A1 /* Foundation.framework */,
+				B2464A15158190C0002260A1 /* CoreGraphics.framework */,
+				B2464A3D158190C0002260A1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2464A17158190C0002260A1 /* TaBBarandUtilityBars */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A20158190C0002260A1 /* AppDelegate.h */,
+				B2464A21158190C0002260A1 /* AppDelegate.m */,
+				B2464A23158190C0002260A1 /* MainStoryboard_iPhone.storyboard */,
+				B2464A26158190C0002260A1 /* MainStoryboard_iPad.storyboard */,
+				B2464A29158190C0002260A1 /* FirstViewController.h */,
+				B2464A2A158190C0002260A1 /* FirstViewController.m */,
+				B2464A2C158190C0002260A1 /* first.png */,
+				B2464A2E158190C0002260A1 /* first@2x.png */,
+				B2464A30158190C0002260A1 /* SecondViewController.h */,
+				B2464A31158190C0002260A1 /* SecondViewController.m */,
+				B2464A33158190C0002260A1 /* second.png */,
+				B2464A35158190C0002260A1 /* second@2x.png */,
+				B2464A18158190C0002260A1 /* Supporting Files */,
+			);
+			path = TaBBarandUtilityBars;
+			sourceTree = "<group>";
+		};
+		B2464A18158190C0002260A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A19158190C0002260A1 /* TaBBarandUtilityBars-Info.plist */,
+				B2464A1A158190C0002260A1 /* InfoPlist.strings */,
+				B2464A1D158190C0002260A1 /* main.m */,
+				B2464A1F158190C0002260A1 /* TaBBarandUtilityBars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2464A43158190C1002260A1 /* TaBBarandUtilityBarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A49158190C1002260A1 /* TaBBarandUtilityBarsTests.h */,
+				B2464A4A158190C1002260A1 /* TaBBarandUtilityBarsTests.m */,
+				B2464A44158190C1002260A1 /* Supporting Files */,
+			);
+			path = TaBBarandUtilityBarsTests;
+			sourceTree = "<group>";
+		};
+		B2464A44158190C1002260A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2464A45158190C1002260A1 /* TaBBarandUtilityBarsTests-Info.plist */,
+				B2464A46158190C1002260A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2464A0C158190C0002260A1 /* TaBBarandUtilityBars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2464A4E158190C1002260A1 /* Build configuration list for PBXNativeTarget "TaBBarandUtilityBars" */;
+			buildPhases = (
+				B2464A09158190C0002260A1 /* Sources */,
+				B2464A0A158190C0002260A1 /* Frameworks */,
+				B2464A0B158190C0002260A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaBBarandUtilityBars;
+			productName = TaBBarandUtilityBars;
+			productReference = B2464A0D158190C0002260A1 /* TaBBarandUtilityBars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2464A3B158190C0002260A1 /* TaBBarandUtilityBarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2464A51158190C1002260A1 /* Build configuration list for PBXNativeTarget "TaBBarandUtilityBarsTests" */;
+			buildPhases = (
+				B2464A37158190C0002260A1 /* Sources */,
+				B2464A38158190C0002260A1 /* Frameworks */,
+				B2464A39158190C0002260A1 /* Resources */,
+				B2464A3A158190C0002260A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2464A42158190C1002260A1 /* PBXTargetDependency */,
+			);
+			name = TaBBarandUtilityBarsTests;
+			productName = TaBBarandUtilityBarsTests;
+			productReference = B2464A3C158190C0002260A1 /* TaBBarandUtilityBarsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2464A04158190C0002260A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2464A07158190C0002260A1 /* Build configuration list for PBXProject "TaBBarandUtilityBars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2464A02158190C0002260A1;
+			productRefGroup = B2464A0E158190C0002260A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2464A0C158190C0002260A1 /* TaBBarandUtilityBars */,
+				B2464A3B158190C0002260A1 /* TaBBarandUtilityBarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2464A0B158190C0002260A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A1C158190C0002260A1 /* InfoPlist.strings in Resources */,
+				B2464A25158190C0002260A1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2464A28158190C0002260A1 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2464A2D158190C0002260A1 /* first.png in Resources */,
+				B2464A2F158190C0002260A1 /* first@2x.png in Resources */,
+				B2464A34158190C0002260A1 /* second.png in Resources */,
+				B2464A36158190C0002260A1 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2464A39158190C0002260A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A48158190C1002260A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2464A3A158190C0002260A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2464A09158190C0002260A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A1E158190C0002260A1 /* main.m in Sources */,
+				B2464A22158190C0002260A1 /* AppDelegate.m in Sources */,
+				B2464A2B158190C0002260A1 /* FirstViewController.m in Sources */,
+				B2464A32158190C0002260A1 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2464A37158190C0002260A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2464A4B158190C1002260A1 /* TaBBarandUtilityBarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2464A42158190C1002260A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2464A0C158190C0002260A1 /* TaBBarandUtilityBars */;
+			targetProxy = B2464A41158190C1002260A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2464A1A158190C0002260A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2464A1B158190C0002260A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2464A23158190C0002260A1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2464A24158190C0002260A1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2464A26158190C0002260A1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2464A27158190C0002260A1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2464A46158190C1002260A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2464A47158190C1002260A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2464A4C158190C1002260A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2464A4D158190C1002260A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2464A4F158190C1002260A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaBBarandUtilityBars/TaBBarandUtilityBars-Prefix.pch";
+				INFOPLIST_FILE = "TaBBarandUtilityBars/TaBBarandUtilityBars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2464A50158190C1002260A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaBBarandUtilityBars/TaBBarandUtilityBars-Prefix.pch";
+				INFOPLIST_FILE = "TaBBarandUtilityBars/TaBBarandUtilityBars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2464A52158190C1002260A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaBBarandUtilityBars.app/TaBBarandUtilityBars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaBBarandUtilityBars/TaBBarandUtilityBars-Prefix.pch";
+				INFOPLIST_FILE = "TaBBarandUtilityBarsTests/TaBBarandUtilityBarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2464A53158190C1002260A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TaBBarandUtilityBars.app/TaBBarandUtilityBars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaBBarandUtilityBars/TaBBarandUtilityBars-Prefix.pch";
+				INFOPLIST_FILE = "TaBBarandUtilityBarsTests/TaBBarandUtilityBarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2464A07158190C0002260A1 /* Build configuration list for PBXProject "TaBBarandUtilityBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2464A4C158190C1002260A1 /* Debug */,
+				B2464A4D158190C1002260A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2464A4E158190C1002260A1 /* Build configuration list for PBXNativeTarget "TaBBarandUtilityBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2464A4F158190C1002260A1 /* Debug */,
+				B2464A50158190C1002260A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2464A51158190C1002260A1 /* Build configuration list for PBXNativeTarget "TaBBarandUtilityBarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2464A52158190C1002260A1 /* Debug */,
+				B2464A53158190C1002260A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2464A04158190C0002260A1 /* Project object */;
+}
